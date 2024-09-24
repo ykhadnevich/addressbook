@@ -53,7 +53,6 @@ remove_contact() {
   echo "Contact removed successfully!"
 }
 
-# Main logic
 if [ "$1" == "add" ]; then
   add_contact
 elif [ "$1" == "search" ]; then
